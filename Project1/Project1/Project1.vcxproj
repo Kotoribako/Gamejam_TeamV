@@ -77,6 +77,8 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\DxLib_VC\dxlib\dxlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>
+      </AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -106,6 +108,8 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\DxLib_VC\dxlib\dxlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>
+      </AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -129,13 +133,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\Barrier.h" />
-    <ClInclude Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\Enemy.h" />
-    <ClInclude Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\Player.h" />
-    <ClInclude Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\RankingData.h" />
+    <ClInclude Include="Barrier.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="GameMainScene.h" />
+    <ClInclude Include="HelpScene.h" />
+    <ClInclude Include="InputControl.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="RankingData.h" />
+    <ClInclude Include="RankingDispScene.h" />
+    <ClInclude Include="RankingInputScene.h" />
+    <ClInclude Include="ResultScene.h" />
+    <ClInclude Include="SceneBase.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="Vector2D.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AppMain.cpp" />
     <ClCompile Include="Barrier.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="GameMainScene.cpp" />
+    <ClCompile Include="HelpScene.cpp" />
+    <ClCompile Include="InputControl.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="RankingData.cpp" />
+    <ClCompile Include="RankingDispScene.cpp" />
+    <ClCompile Include="RankingInputScene.cpp" />
+    <ClCompile Include="ResultScene.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
