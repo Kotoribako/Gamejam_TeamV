@@ -10,29 +10,8 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Object">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <UniqueIdentifier>{3d3bd104-0aef-4935-9878-1f93e897103f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="NewFilter1">
-      <UniqueIdentifier>{5463a39a-510b-4951-8d5c-aa6352bc0a78}</UniqueIdentifier>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\Barrier.cpp">
-      <Filter>Object</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\Enemy.cpp">
-      <Filter>Object</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\Player.cpp">
-      <Filter>Object</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\RankingData.cpp">
-      <Filter>Object</Filter>
-    </ClCompile>
-    <ClCompile Include="ソー.cpp">
-      <Filter>NewFilter1</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\Barrier.h">
@@ -47,5 +26,10 @@
     <ClInclude Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\RankingData.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Barrier.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

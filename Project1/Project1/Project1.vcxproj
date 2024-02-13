@@ -129,17 +129,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\Barrier.cpp" />
-    <ClCompile Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\Enemy.cpp" />
-    <ClCompile Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\Player.cpp" />
-    <ClCompile Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\RankingData.cpp" />
-    <ClCompile Include="ソー.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\Barrier.h" />
     <ClInclude Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\Enemy.h" />
     <ClInclude Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\Player.h" />
     <ClInclude Include="..\..\..\..\Users\KBC12206205\Desktop\Programing\Programing\Game\DriveAndAvoid\Object\RankingData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Barrier.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
